@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# From the author (one of them)
 
-## Available Scripts
+Hello, thanks for visiting our project repository. This app was made as a final project in our Front-End Developer course. During two months of hard study about CSS3, HTML5, JavaScript, React and a bunch of other stuff, I have made this app with three more developers (I think finally we "kinda" can call ourselfes like this). This is not only my work, so checkout my friends profiles:
+Robert - https://github.com/robert-dopieralski
+Jan -https://github.com/jan-grasewicz
+Michał - https://github.com/mtrendel
 
-In the project directory, you can run:
+## What is all about?
 
-### `npm start`
+Imagine - friday evening, you meet few friends and they want to hang out in a pub, that is a typical situation. But remember, it is friday evening, so problably you will walk from place to place trying to find this perfect one where you all can fit. Frustrating, right? So here comes Brewio, willing to help you!
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Our app was made to connect with all local pubs (and clubs maybe) and make it easy to reserve a place for you and your friends. With Brewio you can live check where are pubs nearby with enough space to let you enjoy your night. You can even make a reservation for your birthday party, or integration party.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Why we made it?
 
-### `npm test`
+We had three tasks during our course:
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  We had to make a landing page, to infor people that our app is going to be released. That was simple but a little bit tricky task involving CSS3, HTML5, RWD and a little bit of JS. You can see it here - https://infoshareacademy.github.io/jfdd11-hs/
+2.  After subscribing for futher informations about our app, you can play our gift game made fully in Vanilla JS. Game is about a guy, who is having a great time in one of our partners pub :smile: drinking a lot of beers and trying to get as drunk as possible, not particularly educational, I know. As more you dring, as harder the game gets, screen becoming blurry, our movement is not so smooth. After last beer, you have to reach taxi, which comes next to the tiny door. Remember, you have to exactly reach the door.. Check it out, it is really funny - https://infoshareacademy.github.io/jfdd11-hs/game/index.html
+3.  Last one was this app, try it! -http://app.hs.jfdd11.is-academy.pl/. **Please, use smartphone view. We made it (for now) only for mobile devices.**
 
-### `npm run build`
+## How we made it?
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We used React, and a few little components like FontAwesome for icons, Material UI for log in and sign in forms, Leaflet for map and Datapicker for calendar component.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Rest of the components we made by ourselfes. For storing data we gather everything at Firebase, and we used WebSocket for live reservation preview. To avoid props drilling, we implemented React Context.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+In Brewio you can:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Check our every pub on the list
+- Make your own account
+- Add your pub if you are an owner
+- Check out every pub on the map
+- Search by city, name, location, amount of people or opening hour
+- Accept and reject reservations
+- Check out the status of your reservations
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Final thoughts
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+We had a lot of fun while building Brewio app. There are few things to improve, and few more features to add to make it almost perfect, but for all the effort we gave to this app, I am proud of it, and I hope my friends are too. :smile: For sure I will try to add new thing to it, and even transfer the app to React Native, but in the future. Oh, and, do not copy our idea! :wink:
