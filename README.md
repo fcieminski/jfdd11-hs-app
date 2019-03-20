@@ -1,9 +1,10 @@
 # From the author (one of them)
 
 Hello, thanks for visiting our project repository. This app was made as a final project in our Front-End Developer course. During two months of hard study about CSS3, HTML5, JavaScript, React and a bunch of other stuff, I have made this app with three more developers (I think finally we "kinda" can call ourselfes like this). This is not only my work, so checkout my friends profiles:
-Robert - https://github.com/robert-dopieralski
-Jan -https://github.com/jan-grasewicz
-Michał - https://github.com/mtrendel
+
+- Robert - https://github.com/robert-dopieralski
+- Jan -https://github.com/jan-grasewicz
+- Michał - https://github.com/mtrendel
 
 ## What is all about?
 
